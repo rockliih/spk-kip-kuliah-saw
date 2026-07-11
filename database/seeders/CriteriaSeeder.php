@@ -13,13 +13,13 @@ class CriteriaSeeder extends Seeder
         $now = Carbon::now();
         
         $criterias = [
-            ['code' => 'C1', 'name' => 'Status Orang Tua', 'weight' => 20, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C2', 'name' => 'Jumlah Tanggungan', 'weight' => 10, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C3', 'name' => 'Penghasilan Orang Tua', 'weight' => 15, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C4', 'name' => 'Pekerjaan Orang Tua', 'weight' => 15, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C5', 'name' => 'Status Tempat Tinggal', 'weight' => 5, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C6', 'name' => 'Keterangan Miskin', 'weight' => 30, 'created_at' => $now, 'updated_at' => $now],
-            ['code' => 'C7', 'name' => 'Prestasi Non Akademik', 'weight' => 5, 'created_at' => $now, 'updated_at' => $now],
+            ['code' => 'C1', 'name' => 'Status Orang Tua', 'weight' => 20, 'created_at' => $now, 'updated_at' => $now, 'type' => 'benefit'],
+            ['code' => 'C2', 'name' => 'Jumlah Tanggungan', 'weight' => 10, 'created_at' => $now, 'updated_at' => $now, 'type' => 'benefit'],
+            ['code' => 'C3', 'name' => 'Penghasilan Orang Tua', 'weight' => 15, 'created_at' => $now, 'updated_at' => $now, 'type' => 'cost'],
+            ['code' => 'C4', 'name' => 'Pekerjaan Orang Tua', 'weight' => 15, 'created_at' => $now, 'updated_at' => $now, 'type' => 'cost'],
+            ['code' => 'C5', 'name' => 'Status Tempat Tinggal', 'weight' => 5, 'created_at' => $now, 'updated_at' => $now, 'type' => 'benefit'],
+            ['code' => 'C6', 'name' => 'Keterangan Miskin', 'weight' => 30, 'created_at' => $now, 'updated_at' => $now, 'type' => 'benefit'],
+            ['code' => 'C7', 'name' => 'Prestasi Non Akademik', 'weight' => 5, 'created_at' => $now, 'updated_at' => $now, 'type' => 'benefit'],
         ];
 
         DB::table('criterias')->insert($criterias);

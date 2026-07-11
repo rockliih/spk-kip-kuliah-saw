@@ -16,6 +16,7 @@ return new class extends Migration
             $table->char('code', length:2);
             $table->string('name', length:25);
             $table->integer('weight');
+            $table->enum('type', ['cost', 'benefit'])->default('cost');
             $table->timestamps();
         });
     }
