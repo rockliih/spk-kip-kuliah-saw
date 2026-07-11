@@ -32,10 +32,10 @@ Sistem ini menggunakan 7 kriteria utama yang diadaptasi dari jurnal penelitian t
 - [x] Database Seeding (50 Data Dummy Mahasiswa & 7 Kriteria)
 
 **Fase 2: Logika Algoritma SAW**
-- [ ] Membuat Controller untuk mengambil nilai Min/Max setiap kriteria
-- [ ] Melakukan perhitungan Normalisasi Matriks (Skala 0-1)
-- [ ] Melakukan perhitungan Preferensi (Perkalian dengan Bobot)
-- [ ] Mengurutkan hasil akhir (Ranking)
+- [x] Membuat Controller untuk mengambil nilai Min/Max setiap kriteria
+- [x] Melakukan perhitungan Normalisasi Matriks (Skala 0-1)
+- [x] Melakukan perhitungan Preferensi (Perkalian dengan Bobot)
+- [x] Mengurutkan hasil akhir (Ranking)
 
 **Fase 3: Antarmuka Pengguna (UI/UX)**
 - [ ] Membuat halaman tabel data mahasiswa
