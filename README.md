@@ -47,7 +47,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan prototipe sistem di lingkun
 ### 1. **Kloning Repositori**
     Unduh proyek ini ke dalam komputer lokal menggunakan Git:
    ```bash
-   git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
+   git clone [https://github.com/rockliih/spk-kip-kuliah-saw.git](https://github.com/rockliih/spk-kip-kuliah-saw.git)
    cd nama-repo-kamu
    ```
 
