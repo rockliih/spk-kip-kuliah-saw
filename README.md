@@ -25,6 +25,11 @@ Sistem ini menggunakan 7 kriteria utama yang diadaptasi dari jurnal penelitian t
 
 ---
 
+## Demo Aplikasi
+Link: ["Sistem Pendukung Keputusan Kelayakan Penerima Kartu Indonesia Pintar Kuliah Menggunakan Metode SAW"](https://spk-kipk.rockliih.my.id)
+
+---
+
 ## Persyaratan Sistem (System Requirements)
 
 Sebelum menjalankan aplikasi ini, pastikan sistem komputer atau server sudah terpasang spesifikasi berikut:
@@ -89,6 +94,8 @@ Aplikasi sekarang sudah siap digunakan dan dapat diakses melalui browser pada al
 **Catatan Tambahan untuk Penguji**
 - Menu Hasil Perankingan (Dashboard) akan langsung menampilkan urutan mahasiswa dari skor tertinggi berdasarkan perhitungan algoritma SAW secara real-time.
 - Untuk mencoba menambah, mengubah, atau menghapus data sampel, silakan navigasikan ke menu Kelola Data Mahasiswa.
+
+---
 
 ## Roadmap Proyek (Progress Tracker)
 
