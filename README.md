@@ -112,5 +112,5 @@ Aplikasi sekarang sudah siap digunakan dan dapat diakses melalui browser pada al
 - [x] Mengurutkan hasil akhir (Ranking)
 
 **Fase 3: Antarmuka Pengguna (UI/UX)**
-- [ ] Membuat halaman tabel data mahasiswa
-- [ ] Membuat halaman hasil perankingan SPK
+- [x] Membuat halaman tabel data mahasiswa
+- [x] Membuat halaman hasil perankingan SPK
