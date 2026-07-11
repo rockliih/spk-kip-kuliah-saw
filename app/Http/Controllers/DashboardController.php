@@ -9,6 +9,6 @@ class DashboardController extends Controller
 {
     public function index() {
         $datas = CollegeStudent::results();
-        return $datas;
+        return view('dashboard', ['datas' => $datas]);
     }
 }

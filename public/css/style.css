@@ -1,0 +1,161 @@
+/* public/css/style.css */
+
+body {
+    background-color: #fcfbf7;
+    color: #0f0f0f;
+    font-family: "Consolas", "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+h1 { font-size: 18px; border-bottom: 2px solid #000; padding-bottom: 5px; }
+h2 { font-size: 15px; margin-top: 25px; border-bottom: 1px dashed #666; padding-bottom: 3px; }
+.subtitle { font-size: 11px; color: #555; margin-bottom: 15px; }
+
+/* Navigasi Retro */
+.nav-bar {
+    background-color: #e5e3da;
+    border: 1px solid #333;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-bar a { color: #0f0f0f; text-decoration: none; padding: 0 4px; }
+.nav-bar a:hover { background-color: #0f0f0f; color: #fff; }
+
+/* Fieldset & Form */
+fieldset {
+    border: 1px solid #333;
+    background-color: #f5f4ef;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 5px;
+}
+.legend-item { border-left: 3px solid #666; padding-left: 8px; margin-bottom: 5px; }
+.benefit { border-left-color: #2b6cb0; }
+.cost { border-left-color: #c53030; }
+
+input[type="text"], 
+input[type="number"], 
+select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding: 6px;
+    font-family: inherit;
+    font-size: 12px;
+    background-color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Layout Grid 2 Kolom untuk formulir agar rata kiri-kanan seperti tabel */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* minmax(0, 1fr) mencegah kolom melar */
+    gap: 15px;
+    margin-top: 8px;
+}
+
+/* Tabel Klasik */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+th { background-color: #e5e3da; font-weight: bold; text-align: center; font-size: 12px; }
+tr:nth-child(even) { background-color: #f9f8f3; }
+tr:hover { background-color: #fff3c4; }
+
+/* Form Input & Tombol */
+input[type="text"], input[type="number"], select {
+    border: 1px solid #333;
+    padding: 5px;
+    font-family: inherit;
+    font-size: 12px;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn {
+    border: 1px solid #000;
+    background-color: #e5e3da;
+    color: #000;
+    padding: 5px 12px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn:hover { background-color: #000; color: #fff; }
+.btn-danger { border-color: #800000; color: #800000; }
+.btn-danger:hover { background-color: #800000; color: #fff; }
+
+/* Utilities */
+.text-center { text-align: center; }
+.font-bold { font-weight: bold; }
+.norm-val { font-size: 11px; color: #666; display: block; }
+.status-skema1 { font-weight: bold; color: #005a00; }
+.status-skema2 { color: #555; }
+.alert-success {
+    border: 1px solid #005a00;
+    background-color: #eaf5ea;
+    color: #005a00;
+    padding: 8px 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Helper agar kotak pembungkus dropdown tidak melebihi batas grid */
+.form-group {
+    min-width: 0;
+    width: 100%;
+}
