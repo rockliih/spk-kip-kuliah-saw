@@ -1,4 +1,4 @@
-# Sistem Pendukung Keputusan (SPK) Kelayakan KIP-Kuliah
+# Sistem Pemberi Keputusan (SPK) Kelayakan KIP-Kuliah
 
 Aplikasi berbasis web untuk menentukan kelayakan pembagian skema bantuan KIP-Kuliah (Skema 1 dan Skema 2) secara objektif menggunakan metode **Simple Additive Weighting (SAW)**.
 
