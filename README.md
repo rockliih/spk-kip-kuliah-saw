@@ -45,10 +45,10 @@ Sebelum menjalankan aplikasi ini, pastikan sistem komputer atau server sudah ter
 Ikuti langkah-langkah di bawah ini untuk menjalankan prototipe sistem di lingkungan lokal (*Local Development*):
 
 ### 1. **Kloning Repositori**
-    Unduh proyek ini ke dalam komputer lokal menggunakan Git:
+   Unduh proyek ini ke dalam komputer lokal menggunakan Git:
    ```bash
    git clone https://github.com/rockliih/spk-kip-kuliah-saw.git
-   cd nama-repo-kamu
+   cd spk-kip-kuliah-saw
    ```
 
 ### 2. **Install Dependensi PHP:**
