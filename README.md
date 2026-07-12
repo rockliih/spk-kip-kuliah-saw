@@ -16,7 +16,7 @@ Sistem ini menggunakan 7 kriteria utama yang diadaptasi dari jurnal penelitian t
 3. **C3 (Cost):** Penghasilan Orang Tua (15%)
 4. **C4 (Cost):** Pekerjaan Orang Tua (15%)
 5. **C5 (Benefit):** Status Tempat Tinggal (5%)
-6. **C6 (Benefit):** Keterangan Miskin / SKTM (30%)
+6. **C6 (Benefit):** Keterangan Tidak Mampu / SKTM (30%)
 7. **C7 (Benefit):** Prestasi Non-Akademik (5%)
 
 > **Referensi Jurnal:**
