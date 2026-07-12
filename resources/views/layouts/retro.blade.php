@@ -16,7 +16,7 @@
     </nav>
 
     <header style="position: relative; padding-right: 150px;">
-        <h1>SISTEM PENDUKUNG KEPUTUSAN KIP-KULIAH (METODE SAW)</h1>
+        <h1>SISTEM PEMBERI KEPUTUSAN KIP-KULIAH (METODE SAW)</h1>
         
         <a href="https://github.com/rockliih/spk-kip-kuliah-saw" target="_blank" 
         style="position: absolute; top: 50%; transform: translateY(-50%); right: 0; color: #444; text-decoration: none; font-size: 10px; display: flex; align-items: center; gap: 4px; font-weight: bold;">
